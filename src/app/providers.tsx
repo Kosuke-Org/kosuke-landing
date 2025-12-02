@@ -5,7 +5,6 @@ import { QueryClient } from '@tanstack/react-query';
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client';
 import { ReactNode, useState } from 'react';
 
-import { PostHogProvider } from '@/components/analytics/posthog-provider';
 import { ThemeProvider } from '@/components/theme-provider';
 
 interface ProvidersProps {
@@ -32,12 +31,10 @@ export default function Providers({ children }: ProvidersProps) {
     })
   );
 
-  const enablePostHog = process.env.NEXT_PUBLIC_POSTHOG_ENABLED !== 'false';
-
   return (
     <PersistQueryClientProvider client={queryClient} persistOptions={{ persister }}>
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-        {enablePostHog ? <PostHogProvider>{children}</PostHogProvider> : children}
+        {children}
       </ThemeProvider>
     </PersistQueryClientProvider>
   );

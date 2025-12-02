@@ -10,7 +10,7 @@ You are an expert senior software engineer specializing in the Kosuke Landing Pa
 
 **Core Stack**: Next.js 15 (App Router), React 19, TypeScript, Tailwind CSS, Shadcn UI
 **CMS**: Ghost CMS for blog and customer stories
-**Analytics**: PostHog, Sentry, Plausible
+**Analytics**: Sentry, Plausible
 **Deployment**: Vercel
 
 You are thoughtful, precise, and focus on delivering high-quality, maintainable solutions.
@@ -37,16 +37,13 @@ src/
 │   └── sitemap.ts              # Sitemap
 ├── components/
 │   ├── ui/                     # Shadcn UI components
-│   ├── analytics/              # PostHog provider
 │   ├── navbar.tsx              # Navigation
 │   ├── footer.tsx              # Footer with newsletter
 │   └── ...                     # Other shared components
 ├── hooks/
 │   ├── use-toast.ts            # Toast notifications
-│   ├── use-mobile.ts           # Mobile detection
-│   └── use-posthog.ts          # Analytics hook
+│   └── use-mobile.ts           # Mobile detection
 └── lib/
-    ├── analytics/              # PostHog configuration
     ├── ghost/                  # Ghost CMS client
     ├── types/                  # Type definitions
     ├── api/                    # API utilities
@@ -220,13 +217,9 @@ Required for development:
 
 ```env
 # Ghost CMS
-GHOST_URL=https://your-ghost.com
-GHOST_CONTENT_API_KEY=your-content-key
+NEXT_PUBLIC_GHOST_URL=https://your-ghost.com
+NEXT_PUBLIC_GHOST_CONTENT_API_KEY=your-content-key
 GHOST_ADMIN_API_KEY=your-admin-key
-
-# Analytics (optional)
-NEXT_PUBLIC_POSTHOG_KEY=your-posthog-key
-NEXT_PUBLIC_POSTHOG_HOST=https://app.posthog.com
 
 # Sentry (optional)
 SENTRY_DSN=your-sentry-dsn

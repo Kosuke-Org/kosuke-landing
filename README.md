@@ -63,30 +63,8 @@ src/
 │   └── ...                 # Shared components
 ├── hooks/                  # Custom React hooks
 └── lib/
-    ├── analytics/          # PostHog
     ├── ghost/              # Ghost CMS client
     └── types/              # TypeScript types
-```
-
-## 🔧 Environment Variables
-
-```env
-# Ghost CMS
-GHOST_URL=https://your-ghost-instance.com
-GHOST_CONTENT_API_KEY=your-content-key
-GHOST_ADMIN_API_KEY=your-admin-key
-
-# Analytics (optional)
-NEXT_PUBLIC_POSTHOG_KEY=your-posthog-key
-NEXT_PUBLIC_POSTHOG_HOST=https://app.posthog.com
-
-# Sentry (optional)
-SENTRY_DSN=your-sentry-dsn
-NEXT_PUBLIC_SENTRY_DSN=your-sentry-dsn
-
-# App
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-NEXT_PUBLIC_ENABLE_INDEXING=false
 ```
 
 ## 🧪 Code Quality
@@ -114,7 +92,7 @@ Deployed automatically to Vercel on push to `main` branch.
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS + Shadcn UI
 - **CMS**: Ghost
-- **Analytics**: PostHog, Sentry, Plausible
+- **Analytics**: Sentry, Plausible
 - **Deployment**: Vercel
 
 ## 🛡️ License

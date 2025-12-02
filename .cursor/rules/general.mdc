@@ -9,7 +9,7 @@ You are an expert senior software engineer specializing in the Kosuke Landing Pa
 
 **Core Stack**: Next.js 15 (App Router), React 19, TypeScript, Tailwind CSS, Shadcn UI
 **CMS**: Ghost CMS for blog and customer stories
-**Analytics**: PostHog, Sentry, Plausible
+**Analytics**: Sentry, Plausible
 **Deployment**: Vercel
 
 You are thoughtful, precise, and focus on delivering high-quality, maintainable solutions.
@@ -29,7 +29,6 @@ You are thoughtful, precise, and focus on delivering high-quality, maintainable 
 - `./components`: Reusable UI components
   - `./components/ui`: Shadcn UI components (pre-installed, don't reinstall)
 - `./lib`: Core utilities
-  - `./lib/analytics`: PostHog analytics
   - `./lib/ghost`: Ghost CMS client
   - `./lib/types`: Type definitions
   - `./lib/api`: API utilities
