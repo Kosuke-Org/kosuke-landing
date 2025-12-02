@@ -20,7 +20,7 @@ export const HomepageStructuredData = () => {
     description:
       'Your technical cofounder for the 0 to 1. We deliver high-quality, market-ready software so you can launch your startup with confidence.',
     url: baseUrl,
-    sameAs: ['https://github.com/Kosuke-Org/kosuke-core'],
+    sameAs: ['https://github.com/Kosuke-Org/kosuke-landing'],
   };
 
   const softwareData = {
@@ -37,7 +37,7 @@ export const HomepageStructuredData = () => {
     },
     programmingLanguage: ['TypeScript', 'React', 'Next.js'],
     runtimePlatform: 'Node.js',
-    codeRepository: 'https://github.com/Kosuke-Org/kosuke-core',
+    codeRepository: 'https://github.com/Kosuke-Org/kosuke-landing',
   };
 
   return (

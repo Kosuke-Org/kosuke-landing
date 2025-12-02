@@ -74,7 +74,7 @@ export default process.env.NODE_ENV === 'production'
       // https://www.npmjs.com/package/@sentry/webpack-plugin#options
 
       org: 'kosuke',
-      project: 'kosuke-core',
+      project: 'kosuke-landing',
 
       // Only print logs for uploading source maps in CI
       silent: !process.env.CI,
