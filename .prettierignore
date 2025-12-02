@@ -10,12 +10,6 @@ out/
 build/
 dist/
 
-# Ignored folders
-projects/
-templates/
-roo-code/
-venv/
-
 # Cache
 .npm
 .eslintcache
