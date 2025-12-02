@@ -24,7 +24,7 @@ function hasSentryConsent(): boolean {
 function getSentryConfig() {
   return {
     dsn: process.env.NEXT_PUBLIC_SENTRY_DSN,
-    environment: process.env.NEXT_PUBLIC_SENTRY_ENVIRONMENT || 'development',
+    environment: 'production',
     integrations: [Sentry.replayIntegration()],
     tracesSampleRate: 1,
     replaysSessionSampleRate: 0.1,

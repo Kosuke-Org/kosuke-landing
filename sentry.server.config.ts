@@ -4,12 +4,9 @@
 
 import * as Sentry from '@sentry/nextjs';
 
-const dsn = process.env.SENTRY_DSN;
-const environment = process.env.SENTRY_ENVIRONMENT || 'development';
-
 const sentryOptions: Sentry.NodeOptions = {
-  dsn,
-  environment,
+  dsn: process.env.SENTRY_DSN,
+  environment: 'production',
   tracesSampleRate: 1.0,
   maxBreadcrumbs: 50,
   attachStacktrace: true,
