@@ -1,1 +1,0 @@
-ALTER TABLE "projects" ADD COLUMN "is_imported" boolean DEFAULT false NOT NULL;

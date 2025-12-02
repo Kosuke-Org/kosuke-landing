@@ -35,10 +35,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env
-.env.build
-env_backups/
 .secrets
-secrets_backups/
 
 # vercel
 .vercel
@@ -51,14 +48,6 @@ next-env.d.ts
 .env.sentry-build-plugin
 
 *storybook.log
-
-# uploads (local development)
-public/uploads/*
-!public/uploads/.gitkeep
-
-# projects (local development - ignore numbered subdirectories)
-projects/*/
-!projects/.gitkeep
 
 # lighthouse reports
 *.report.html

@@ -33,9 +33,6 @@ const knipConfig = {
     'eslint-config-next',
     'eslint-config-prettier',
     'posthog-node',
-    // TODO check if we should use these dependencies
-    '@types/bcryptjs',
-    '@types/marked',
     // Types for global scripts loaded via CDN
     '@types/cookiebot-sdk',
     // Dependencies used in build scripts or configuration
