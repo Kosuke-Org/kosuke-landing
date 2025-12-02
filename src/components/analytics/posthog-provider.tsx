@@ -1,7 +1,6 @@
 'use client';
 
 import { hasAnalyticsConsent, initPostHog, posthog } from '@/lib/analytics/posthog';
-import { useUser } from '@clerk/nextjs';
 import { usePathname, useSearchParams } from 'next/navigation';
 import type { ReactNode } from 'react';
 import { Suspense, useEffect, useState } from 'react';
@@ -35,8 +34,7 @@ function PostHogPageView() {
 }
 
 export function PostHogProvider({ children }: PostHogProviderProps) {
-  const { user, isLoaded } = useUser();
-  const [consentGiven, setConsentGiven] = useState(false);
+  const [, setConsentGiven] = useState(false);
 
   useEffect(() => {
     // Check if consent already given
@@ -69,19 +67,6 @@ export function PostHogProvider({ children }: PostHogProviderProps) {
       window.removeEventListener('CookiebotOnDecline', handleCookiebotDecline);
     };
   }, []);
-
-  useEffect(() => {
-    if (!isLoaded || !user || !consentGiven) return;
-
-    // Identify user in PostHog when Clerk user is loaded and consent given
-    posthog?.identify(user.id, {
-      email: user.primaryEmailAddress?.emailAddress,
-      name: user.fullName,
-      firstName: user.firstName,
-      lastName: user.lastName,
-      createdAt: user.createdAt,
-    });
-  }, [user, isLoaded, consentGiven]);
 
   return (
     <>

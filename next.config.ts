@@ -2,7 +2,6 @@ import { withSentryConfig } from '@sentry/nextjs';
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: ['@docker/node-sdk'],
   output: 'standalone',
   poweredByHeader: false,
   experimental: {
@@ -37,10 +36,6 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'avatar.vercel.sh',
-      },
-      {
-        protocol: 'https',
-        hostname: 'img.clerk.com',
       },
       // Ghost CMS images
       {
