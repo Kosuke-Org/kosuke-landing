@@ -12,7 +12,6 @@ const knipConfig = {
     'src/lib/analytics/server.ts',
     'src/lib/analytics/events.ts',
     // Template/infrastructure files - ready for future use
-    'src/hooks/use-posthog.ts',
     'src/hooks/use-mobile.ts',
     // Data migration scripts - run manually when needed
     'src/lib/db/scripts/**',
@@ -32,7 +31,6 @@ const knipConfig = {
     'sonner',
     'eslint-config-next',
     'eslint-config-prettier',
-    'posthog-node',
     // Types for global scripts loaded via CDN
     '@types/cookiebot-sdk',
     // Dependencies used in build scripts or configuration
