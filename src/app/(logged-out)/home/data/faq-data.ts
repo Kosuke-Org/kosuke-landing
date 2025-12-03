@@ -3,7 +3,7 @@ export const faqItems = [
     id: 'item-1',
     question: 'How is Kosuke different from other AI coding platforms?',
     answer:
-      'Unlike traditional vibe-coding platforms that leave you with broken demos, we combine AI efficiency with human expertise. When AI gets stuck, senior developers step in to ensure you get production-ready software, not just mockups.',
+      'Unlike traditional vibe-coding platforms that leave you with broken demos, we combine AI efficiency with human expertise. When AI gets stuck, senior developers step in to ensure you get production-ready software.',
   },
   {
     id: 'item-2',
