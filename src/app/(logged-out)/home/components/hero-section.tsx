@@ -52,7 +52,7 @@ export function HeroSection() {
             <h1 className="text-3xl sm:text-[2rem] md:text-4xl lg:text-6xl font-bold leading-tight sm:leading-tight tracking-tight">
               Your{' '}
               <AuroraText colors={['#10B981', '#22c55e', '#34D399', '#059669']}>
-                Tech partner
+                Tech Partner
               </AuroraText>
               <br />
               as a Service
