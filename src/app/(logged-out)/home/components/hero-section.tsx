@@ -50,18 +50,18 @@ export function HeroSection() {
             </motion.div>
 
             <h1 className="text-3xl sm:text-[2rem] md:text-4xl lg:text-6xl font-bold leading-tight sm:leading-tight tracking-tight">
-              Your technical{' '}
+              Your{' '}
               <AuroraText colors={['#10B981', '#22c55e', '#34D399', '#059669']}>
-                co-founder
+                Tech Partner
               </AuroraText>
               <br />
-              for the 0 to 1.
+              as a Service
             </h1>
 
             <p className="text-base md:text-lg lg:text-xl text-muted-foreground font-sans leading-relaxed mx-auto max-w-3xl">
-              Traditional vibe-coding platforms leave founders with broken demos, not real products.
-              We deliver high-quality, market-ready software so you can launch your startup with
-              confidence.
+              Founders struggle with broken demos from vibe-coding platforms and slow, expensive
+              software agencies. We quickly deliver high-quality, market-ready software so you can
+              launch your startup with confidence.
             </p>
 
             {/* CTA Button */}
