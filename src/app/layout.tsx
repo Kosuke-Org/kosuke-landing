@@ -20,22 +20,32 @@ const ogImageSquare = `${baseUrl}/opengraph-image-square.jpg`;
 // Set NEXT_PUBLIC_ENABLE_INDEXING=true in production environment only
 const enableIndexing = process.env.NEXT_PUBLIC_ENABLE_INDEXING === 'true';
 
-const title = 'Kosuke - Your Technical Co-founder for the 0 to 1';
+const title = 'Kosuke | Your Tech Partner as a Service';
 const description =
-  'Stop settling for broken demos. We deliver production-ready software combining AI speed with engineering expertise, so you can launch your startup with confidence.';
+  'Lean software development workforce for your startup to ship without coding. Launch, iterate, and scale quickly and affordably!';
 
 export const metadata: Metadata = {
   title,
   description,
   keywords: [
     'technical cofounder',
-    'MVP development',
-    'startup software development',
+    'mvp development',
+    'software development',
     'production-ready software',
-    'AI-powered development',
-    'founder software',
-    '0 to 1 development',
+    'ai-powered development',
+    'vibe coding',
+    'tech partner',
+    'startup cofounder',
     'startup technical partner',
+    'no-code development',
+    'development outsourcing',
+    'startup engineering team',
+    'digital product development',
+    'saas development',
+    'product engineering',
+    'full-stack development',
+    'development for startups',
+    'devops for startups',
   ],
   authors: [{ name: 'Kosuke Team' }],
   creator: 'Kosuke',
@@ -61,13 +71,13 @@ export const metadata: Metadata = {
         url: ogImage,
         width: 1200,
         height: 630,
-        alt: 'Kosuke - Your Technical Cofounder for the 0 to 1',
+        alt: 'Kosuke | Your Tech Partner as a Service',
       },
       {
         url: ogImageSquare,
         width: 500,
         height: 500,
-        alt: 'Kosuke - Your Technical Cofounder for the 0 to 1',
+        alt: 'Kosuke | Your Tech Partner as a Service',
       },
     ],
   },
