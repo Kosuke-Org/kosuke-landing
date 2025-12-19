@@ -17,7 +17,9 @@
     "test:coverage": "jest --coverage",
     "shadcn:update": "npx shadcn@canary add -a -y -o",
     "shadcn:check": "npx shadcn@canary diff",
-    "knip": "knip"
+    "knip": "knip",
+    "db:migrate": "echo 'No migrations to run'",
+    "db:seed": "echo 'No seeds to run'"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.12",
