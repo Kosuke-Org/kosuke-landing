@@ -26,7 +26,6 @@ const knipConfig = {
     'ts-node',
     // Dependencies used in configuration files or by frameworks
     'react-day-picker',
-    'recharts',
     'server-only',
     'sonner',
     'eslint-config-next',
