@@ -21,7 +21,6 @@ const knipConfig = {
     '@radix-ui/*',
     'embla-carousel-react',
     'input-otp',
-    'react-resizable-panels',
     'vaul',
     'ts-node',
     // Dependencies used in configuration files or by frameworks
