@@ -50,18 +50,15 @@ export function HeroSection() {
             </motion.div>
 
             <h1 className="text-3xl sm:text-[2rem] md:text-4xl lg:text-6xl font-bold leading-tight sm:leading-tight tracking-tight">
-              Your{' '}
               <AuroraText colors={['#10B981', '#22c55e', '#34D399', '#059669']}>
-                Tech Partner
+                Vamos Vamos
               </AuroraText>
-              <br />
-              as a Service
             </h1>
 
             <p className="text-base md:text-lg lg:text-xl text-muted-foreground font-sans leading-relaxed mx-auto max-w-3xl">
-              Founders struggle with broken demos from vibe-coding platforms and slow, expensive
-              software agencies. We quickly deliver high-quality, market-ready software so you can
-              launch your startup with confidence.
+              Build, launch, and scale your next big idea with a dedicated team of expert engineers.
+              From MVP to market-ready product, we partner with ambitious founders to turn vision into
+              reality—fast and without the overhead.
             </p>
 
             {/* CTA Button */}

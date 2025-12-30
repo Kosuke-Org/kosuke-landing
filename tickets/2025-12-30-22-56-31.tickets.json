@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2025-12-30T22:56:38.831Z",
+  "totalTickets": 1,
+  "navigation": [],
+  "endpoints": [],
+  "tickets": [
+    {
+      "id": "PLAN-FRONTEND",
+      "title": "Update Hero Section to display Vamos Vamos messaging",
+      "description": "Update the home page Hero Section component to replace current 'Your Tech Partner as a Service' messaging with 'Vamos Vamos' as the primary headline. Keep existing visual design patterns, animations, and CTA structure.\n\n**Changes Required:**\n- Replace main headline with 'Vamos Vamos' (maintaining AuroraText effect with green colors)\n- Update supporting description copy to explain what Vamos Vamos offers (2-3 sentences)\n- Keep all existing visual elements: badge, startup program link, Contact Us CTA button, motion animations\n- Maintain responsive sizing and layout\n- Preserve AuroraText gradient colors (#10B981, #22c55e, #34D399, #059669)\n\n**File to modify:**\n- src/app/(logged-out)/home/components/hero-section.tsx\n\n**Acceptance Criteria:**\n- Hero headline displays 'Vamos Vamos' with AuroraText gradient effect\n- New supporting description explains the value proposition\n- All motion animations work smoothly\n- Responsive design maintained across mobile, tablet, and desktop\n- Startup program badge and Contact Us CTA remain functional\n- Component compiles without TypeScript errors\n- Lint and build checks pass",
+      "type": "frontend",
+      "estimatedEffort": 2,
+      "status": "Done",
+      "category": "home-page"
+    }
+  ]
+}
