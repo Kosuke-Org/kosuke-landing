@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-01-02T15:30:24.437Z",
+  "totalTickets": 1,
+  "navigation": [],
+  "endpoints": [],
+  "tickets": [
+    {
+      "id": "PLAN-FRONTEND",
+      "title": "Update hero section to display 'HELLO WORLD'",
+      "description": "Modify the home page hero section to replace the main heading with 'HELLO WORLD' while maintaining existing visual styling and animations.\n\nChanges:\n- Replace the h1 heading text from 'Your Tech Partner as a Service' to 'HELLO WORLD'\n- Keep the AuroraText component with the same gradient effect (colors: ['#10B981', '#22c55e', '#34D399', '#059669'])\n- Maintain the existing badge, description paragraph, and CTA button\n- Keep all motion animations and styling intact\n- Ensure responsive design continues to work across all breakpoints (sm, md, lg)\n\nFile to modify:\n- src/app/(logged-out)/home/components/hero-section.tsx\n\nAcceptance Criteria:\n- Hero section displays 'HELLO WORLD' as the main heading\n- AuroraText gradient effect is applied to 'HELLO WORLD'\n- Badge, description, and CTA button remain visible and functional\n- All motion animations (fade-in, scale) continue to work\n- Responsive design is maintained across all screen sizes\n- No console errors or TypeScript errors",
+      "type": "frontend",
+      "estimatedEffort": 2,
+      "status": "Done",
+      "category": "home-page"
+    }
+  ]
+}

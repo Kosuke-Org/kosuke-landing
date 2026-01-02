@@ -50,12 +50,9 @@ export function HeroSection() {
             </motion.div>
 
             <h1 className="text-3xl sm:text-[2rem] md:text-4xl lg:text-6xl font-bold leading-tight sm:leading-tight tracking-tight">
-              Your{' '}
               <AuroraText colors={['#10B981', '#22c55e', '#34D399', '#059669']}>
-                Tech Partner
+                HELLO WORLD
               </AuroraText>
-              <br />
-              as a Service
             </h1>
 
             <p className="text-base md:text-lg lg:text-xl text-muted-foreground font-sans leading-relaxed mx-auto max-w-3xl">
