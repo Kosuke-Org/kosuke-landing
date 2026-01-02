@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-01-02T19:05:53.120Z",
+  "totalTickets": 1,
+  "navigation": [],
+  "endpoints": [],
+  "tickets": [
+    {
+      "id": "PLAN-FRONTEND",
+      "title": "Update home page hero section to display BELLONAAAAAA",
+      "description": "Replace the main hero heading with 'BELLONAAAAAA' using the existing aurora gradient effect.\n\n**Changes:**\n- Modify the HeroSection component in src/app/(logged-out)/home/components/hero-section.tsx\n- Replace the h1 content that currently reads 'Your <AuroraText>Tech Partner</AuroraText> as a Service' with 'BELLONAAAAAA'\n- Apply the same aurora gradient effect (colors: ['#10B981', '#22c55e', '#34D399', '#059669']) to the new text\n- Keep all other elements in their current positions: badge, subtitle, and Contact Us button\n- Maintain all existing animations and styling (motion effects, spacing, responsive breakpoints)\n\n**Acceptance Criteria:**\n✅ Hero section displays 'BELLONAAAAAA' as the main heading\n✅ Text uses the aurora gradient effect matching the current design\n✅ All animations and transitions work as expected\n✅ Responsive design maintained across mobile, tablet, and desktop\n✅ Badge, subtitle, and CTA button remain unchanged\n✅ No TypeScript errors or type issues\n✅ Component builds successfully with bun run build\n✅ Passes lint check with bun run lint",
+      "type": "frontend",
+      "estimatedEffort": 2,
+      "status": "Done",
+      "category": "home"
+    }
+  ]
+}
