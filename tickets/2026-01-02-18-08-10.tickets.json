@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-01-02T18:08:16.612Z",
+  "totalTickets": 1,
+  "navigation": [],
+  "endpoints": [],
+  "tickets": [
+    {
+      "id": "PLAN-FRONTEND",
+      "title": "Update home page hero section to display 'HOLA HOLA'",
+      "description": "Update the hero section of the home page to replace the current heading 'Your Tech Partner as a Service' with 'HOLA HOLA' while maintaining the existing Aurora gradient effect and visual hierarchy.\n\n**Acceptance Criteria:**\n- The main heading in HeroSection component displays 'HOLA HOLA' instead of 'Your Tech Partner as a Service'\n- The Aurora gradient effect (green shades: #10B981, #22c55e, #34D399, #059669) is applied to the new heading text\n- All animations (entrance, scale, shine effects) remain intact and functioning\n- The supporting paragraph text below the heading remains unchanged\n- All other home page sections (Problems, Solutions, CTA, FAQ) remain unchanged\n- Page builds successfully with no TypeScript or linting errors\n- Visual appearance matches the current design system and responsive behavior",
+      "type": "frontend",
+      "estimatedEffort": 2,
+      "status": "Done",
+      "category": "home-page"
+    }
+  ]
+}
