@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-01-02T18:55:45.481Z",
+  "totalTickets": 1,
+  "navigation": [],
+  "endpoints": [],
+  "tickets": [
+    {
+      "id": "PLAN-FRONTEND",
+      "title": "Update home page hero section headline to 'VAMOS VAMOS'",
+      "description": "Replace the current hero section headline text with 'VAMOS VAMOS' while maintaining all existing visual effects, styling, and supporting elements.\n\n**Changes:**\n- Replace headline text in HeroSection component from 'Your Tech Partner as a Service' to 'VAMOS VAMOS'\n- Keep the aurora gradient text effect on the new headline\n- Maintain all other sections: badge, description paragraph, CTA button, Problems section, Solutions grid, CTA section, and FAQ section\n- No changes to layout, animations, or responsive behavior\n\n**Files to modify:**\n- src/app/(logged-out)/home/components/hero-section.tsx\n\n**Acceptance Criteria:**\n- Hero section displays 'VAMOS VAMOS' as the main headline\n- Aurora gradient effect is applied to the new headline text\n- All supporting elements remain unchanged and functional\n- Page is responsive on mobile, tablet, and desktop\n- Build passes without errors\n- Lint and typecheck pass without errors",
+      "type": "frontend",
+      "estimatedEffort": 1,
+      "status": "Done",
+      "category": "homepage"
+    }
+  ]
+}
